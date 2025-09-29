@@ -45,8 +45,8 @@ Backend integration (Node.js + DB) in future
 
 📧 Contact
 
-👤 Your Name
+👤 Your Name: Durgesh Kumar Pandey
 
-GitHub: @durgespandey
-MoNo: 8738926312
+GitHub: @durgespandey          
+MoNo: 8738926312              
 Email: 29532dkpandey@gmail.com
