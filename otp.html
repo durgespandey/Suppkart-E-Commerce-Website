@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OTP Verification</title>
+  <link rel="stylesheet" href="otp.css">
+</head>
+<body>
+  <div class="container">
+    <div class="close-btn">&#10005;</div>
+    <h1 class="logo">LOGO</h1>
+    <p class="otp-desc">
+      Enter the code we sent to your email address or mobile number
+    </p>
+    <form class="otp-form">
+      <div class="input-field">
+        <input type="text" required placeholder="Enter OTP" />
+        <label>OTP</label>
+      </div>
+      <!-- <button type="submit" class="otp-btn">CONTINUE</button> -->
+       <a href="http://127.0.0.1:5500/UpdatePass/update.html" class="otp-btn" style="display:block;text-align:center;text-decoration:none;">CONTINUE</a>
+    </form>
+    <div class="otp-resend">
+      Resend OTP <span class="otp-timer">00:59</span>
+    </div>
+  </div>
+</body>
+</html>
