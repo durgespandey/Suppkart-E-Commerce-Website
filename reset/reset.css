@@ -1,0 +1,141 @@
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 410px;
+  margin: 40px auto;
+  padding: 30px 25px 15px 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.10);
+  border-radius: 10px;
+  background: #fff;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 7px;
+  background: #444;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  font-size: 29px;
+  color: #fffdfd;
+  cursor: pointer;
+}
+
+.logo {
+  text-align: center;
+  color: #3e157c;
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 20px 0 22px 0;
+  font-style: italic;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.reset-desc {
+  text-align: left;
+  margin: 15px 0 28px 20px;
+  color: #212121;
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+.reset-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 15px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 22px 10px 8px 10px;
+  border: 2px solid #232323;
+  border-radius: 2px;
+  outline: none;
+  background: #fff;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.input-group label {
+  position: absolute;
+  left: 11px;
+  top: -10px;
+  background: #fff;
+  color: #222;
+  font-size: 1.09rem;
+  pointer-events: none;
+  transition: 0.2s;
+  padding: 0 6px;
+}
+
+.input-group input:focus + label,
+.input-group input:not(:placeholder-shown) + label {
+  top: -11px;
+  left: 10px;
+  font-size: 0.95rem;
+  color: #3e157c;
+  background: #fff;
+}
+
+.captcha-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 12px 0 25px 0;
+}
+
+.captcha-img {
+  width: 115px;
+  height: 36px;
+  object-fit: contain;
+  border: 1px dotted #ccc;
+}
+
+.captcha-audio {
+  font-size: 1.55rem;
+  cursor: pointer;
+  color: #000000;
+  /* background: black; */
+  border-radius: 25%;
+}
+
+.reset-btn {
+  margin-top: 5px;
+  background: linear-gradient(90deg,#9e2c73 0%,#300078 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 2px;
+  padding: 16px 0;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.goto-login {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.13rem;
+  color: #222;
+}
+
+.goto-login a {
+  color: #444;
+  text-decoration: none;
+  font-weight: 500;
+}
